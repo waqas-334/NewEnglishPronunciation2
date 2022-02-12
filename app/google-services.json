@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988826973828",
+    "project_id": "english-pronunciation-e1115",
+    "storage_bucket": "english-pronunciation-e1115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988826973828:android:970193232aafe1078334d1",
+        "android_client_info": {
+          "package_name": "com.androidbull.mypronounce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988826973828-29rp85i7r921hfmi4c97egi62fksm1hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh4WN3vJC__h0e6zZnP6fvwLJKjxVR70I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988826973828-29rp85i7r921hfmi4c97egi62fksm1hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/str_help_us_make_the_app_better"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:text="@string/str_welcome_text_desc"
+        android:textColor="@android:color/black" />
+
+
+    <CheckBox
+        android:id="@+id/adCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDescription"
+        android:layout_marginTop="20dp"
+        android:buttonTint="@android:color/black"
+        android:checked="true"
+        android:text="@string/str_continue_with_ads" />
+
+    <Button
+        android:id="@+id/letsGoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adCheckBox"
+        android:layout_alignParentRight="true"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_let_s_go"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/removeAds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adCheckBox"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/letsGoButton"
+        android:text="@string/str_remove_ads"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

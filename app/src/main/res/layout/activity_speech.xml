@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc001"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/tbTextToSpeech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="@string/str_text_to_speech"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+        app:titleTextColor="@color/black" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/teacher" />
+
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0.35"
+        android:background="@drawable/bg_button"
+        android:hint="Enter Text Here"
+        android:maxWidth="5.0dip"
+        android:minWidth="10.0dip"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:scrollbars="vertical"
+        android:scrollHorizontally="false"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txtInput"
+        android:padding="40dp"
+        android:text="Hi, Please enter the text below and  I will pronunce it for you" />
+
+    <ImageView
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:onClick="speakText"
+        android:src="@drawable/ic_play_arrow_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_weight="2" />
+
+    <LinearLayout
+        android:id="@+id/banner_container"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/m_speech_bottom_banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/mRlSpeakAdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+
+
+    <LinearLayout
+        android:id="@+id/llAdsBannerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>

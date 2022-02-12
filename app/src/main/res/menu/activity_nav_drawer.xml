@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/miPronunciationGuide"
+            android:icon="@drawable/ic_pronunciation_guide"
+            android:title="@string/str_mi_pronunciation_guide" />
+        <item
+            android:id="@+id/miTextToSpeech"
+            android:icon="@drawable/ic_speaking"
+            android:title="@string/str_mi_text_to_speech" />
+
+        <item
+            android:id="@+id/remove_ads"
+            android:icon="@drawable/ic_menu_remove_ads"
+            android:title="@string/remove_ads" />
+        <item
+            android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_menu_privacy_policy"
+            android:title="@string/mi_privacy_policy" />
+        <item
+            android:id="@+id/rate"
+            android:icon="@drawable/ic_baseline_star_border_24"
+            android:title="@string/mi_rate" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/mi_share" />
+
+        <item
+            android:id="@+id/more_apps"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="@string/mi_more_apps" />
+
+
+    </group>
+
+</menu>

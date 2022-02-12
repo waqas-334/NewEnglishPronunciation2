@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC001</color>
+    <color name="colorPrimaryDark">#d29e00</color>
+    <color name="colorAccent">#FFFF</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="accent">#000000</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="nav_icon_gray">#6B6B6B</color>
+    <color name="black">#000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="et_hint_color">#BDBDBD</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="accuracy_bad">#FF2531</color>
+
+
+    <color name="indicator_inactive">#C5C3C3</color>
+    <color name="word_lesson_disabled_title">#828282</color>
+    <color name="word_lesson_disabled_subtitle">#C6C6C6</color>
+    <color name="word_lesson_enabled_subtitle">#949494</color>
+    <color name="progress_total">#D9D8D8</color>
+
+    <color name="gradient_end">#C9000000</color>
+
+
+</resources>

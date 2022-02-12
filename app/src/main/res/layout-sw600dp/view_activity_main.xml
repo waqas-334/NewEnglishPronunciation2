@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPracticeWords"
+            style="@style/EPPrimaryButtonTablet"
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin"
+            android:text="Practice\nWords"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@id/btnPracticeSentences"
+            app:layout_constraintHorizontal_bias="0.50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.vaibhavlakhera.circularprogressview.CircularProgressView
+            android:id="@+id/cpvWordLessons"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:elevation="8dp"
+            android:outlineProvider="none"
+            app:animate="true"
+            app:animateDuration="600"
+            app:layout_constraintEnd_toEndOf="@id/btnPracticeWords"
+            app:layout_constraintTop_toTopOf="@id/btnPracticeWords"
+            app:progressColor="@color/black"
+            app:progressInterpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:progressRoundCap="true"
+            app:progressTextColor="@color/black"
+            app:progressTextEnabled="true"
+            app:progressTextSize="12sp"
+            app:progressTextType="percent"
+            app:progressWidth="8dp"
+            app:startAngle="270"
+            app:totalColor="@color/white"
+            app:totalValue="100"
+            app:totalWidth="8dp"
+            tools:targetApi="lollipop" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPracticeSentences"
+            style="@style/EPPrimaryButtonTablet"
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin"
+            android:paddingVertical="@dimen/activity_vertical_margin_small"
+            android:text="Practice\nSentences"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnPracticeWords"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.vaibhavlakhera.circularprogressview.CircularProgressView
+            android:id="@+id/cpvSentenceLessons"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:elevation="8dp"
+            android:outlineProvider="none"
+            app:animate="true"
+            app:animateDuration="600"
+            app:layout_constraintEnd_toEndOf="@id/btnPracticeSentences"
+            app:layout_constraintTop_toTopOf="@id/btnPracticeSentences"
+            app:progressColor="@color/black"
+            app:progressInterpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:progressRoundCap="true"
+            app:progressTextColor="@color/black"
+            app:progressTextEnabled="true"
+            app:progressTextSize="12sp"
+            app:progressTextType="percent"
+            app:progressWidth="8dp"
+            app:startAngle="270"
+            app:totalColor="@color/white"
+            app:totalValue="100"
+            app:totalWidth="8dp"
+            tools:targetApi="lollipop" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDailyLesson"
+            style="@style/EPPrimaryButtonTablet"
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin"
+            android:text="Daily\nLesson"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@id/clTestPronunciation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnPracticeWords" />
+
+
+        <com.vaibhavlakhera.circularprogressview.CircularProgressView
+            android:id="@+id/cpvDailyLessons"
+            style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:elevation="8dp"
+            android:outlineProvider="none"
+            app:animate="true"
+            app:animateDuration="600"
+            app:layout_constraintEnd_toEndOf="@id/btnDailyLesson"
+            app:layout_constraintTop_toTopOf="@id/btnDailyLesson"
+            app:progressColor="@color/black"
+            app:progressInterpolator="@android:anim/accelerate_decelerate_interpolator"
+            app:progressRoundCap="true"
+            app:progressTextColor="@color/black"
+            app:progressTextEnabled="true"
+            app:progressTextSize="12sp"
+            app:progressTextType="percent"
+            app:progressWidth="8dp"
+            app:startAngle="270"
+            app:totalColor="@color/white"
+            app:totalValue="100"
+            app:totalWidth="8dp"
+            tools:targetApi="lollipop" />
+
+
+        <View
+            android:id="@+id/vUnreadLessonBadge"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="@dimen/activity_vertical_margin_small"
+            android:background="@drawable/unread_lesson_badge"
+            android:elevation="8dp"
+            android:outlineProvider="none"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="@id/btnDailyLesson"
+            app:layout_constraintTop_toTopOf="@id/btnDailyLesson"
+            tools:targetApi="lollipop" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clTestPronunciation"
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_small"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/btnDailyLesson"
+            app:layout_constraintTop_toBottomOf="@id/btnPracticeSentences">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTestPronunciationTab"
+                style="@style/EPPrimaryOutlineButtonTablet"
+                android:layout_width="260dp"
+                android:layout_height="150dp"
+                android:gravity="start"
+                android:paddingHorizontal="@dimen/activity_horizontal_margin"
+                android:text="@string/btn_test_pronunciation"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTestPronunciation"
+                style="@style/EPPrimaryTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@string/btn_learn_more"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clHomophones"
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            app:layout_constraintEnd_toEndOf="@id/btnDailyLesson"
+            app:layout_constraintStart_toStartOf="@id/btnDailyLesson"
+            app:layout_constraintTop_toBottomOf="@id/btnDailyLesson">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHomophonesTab"
+                style="@style/EPPrimaryOutlineButtonTablet"
+                android:layout_width="260dp"
+                android:layout_height="150dp"
+                android:gravity="start"
+                android:paddingHorizontal="@dimen/activity_horizontal_margin"
+                android:text="@string/btn_homophones"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHomophones"
+                style="@style/EPPrimaryTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward_24"
+                android:padding="@dimen/activity_vertical_margin"
+                android:text="@string/btn_learn_more"
+                android:textAllCaps="false"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

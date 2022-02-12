@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ads="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:weightSum="20">
+
+  <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:background="#F0E68C"
+    android:gravity="center"
+    android:text="Pronunciation Made Easy"
+    android:textColor="#500000"
+    android:textSize="20dp"/>
+
+  <WebView
+    android:id="@+id/web1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="19"/>
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/mRlLessonsAdContainer"
+    android:layout_height="wrap_content"/>
+
+
+  <LinearLayout
+    android:id="@+id/banner_container_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    />
+
+  <!--
+  <com.google.android.gms.ads.AdView
+    android:id="@+id/pronunciation_lessons_bottom_banner"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    ads:adSize="SMART_BANNER"
+    ads:adUnitId="@string/pronunciation_guide_bottom_banner"
+    ads:layout_anchor="@+id/include"
+    ads:layout_anchorGravity="bottom|center">
+  </com.google.android.gms.ads.AdView>-->
+
+</LinearLayout>

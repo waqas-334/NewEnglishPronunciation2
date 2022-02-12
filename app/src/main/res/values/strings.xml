@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">English Pronunciation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_subtitle">AndroidBull</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_video_ad">Ad</string>
+
+
+    <!--<string name="rewarded_video_ad">ca-app-pub-6386764908607678/8507695852</string>-->
+    <!--Test Ad Unit ID-->
+    <string name="google_play_url">https://play.google.com/store/apps/details?id=</string>
+    <!--
+  <string name="bottom_banner_ad_fb">250543005627109_250543135627096</string>
+  <string name="ad_button_interstital">250543005627109_250742365607173</string>
+  <string name="pronunciation_guide_button">250543005627109_250746248940118</string>
+-->
+
+
+    <!--Rating Strings-->
+    <string name="share_this_app_with">Grab this amazing and easy to use Incognito Web-Browser, here:</string>
+    <string name="enjoy_using_our_app">Enjoy Using Our App?</string>
+    <string name="choose_one">Choose One</string>
+    <string name="confused_desc">If you are confused about anything then please let us know</string>
+    <string name="contact_our_team">Contact Our Team</string>
+    <string name="how_do_you_feel">How do you feel about this app?</string>
+    <string name="happy">Happy</string>
+    <string name="confused">Confused</string>
+    <string name="unhappy">Unhappy</string>
+    <string name="cancel">Cancel</string>
+    <string name="happy_desc">We are more than happy to know that! Please show some love on Google Play Store by rating this app!</string>
+    <string name="write_a_review">Rate this App</string>
+    <string name="tell_your_friend">Tell your friend</string>
+    <string name="tweet_about_us">Tweet about this us!</string>
+    <string name="post_on_facebook">Post it on Facebook</string>
+    <string name="unhappy_desc">Ohh! We are sorry for that, please write to us what makes you unhappy. We will try our best to improve it.</string>
+    <string name="device_time_warning">Your device time is not accurate. Can not go ahead. Please change time.</string>
+    <string name="ok">Ok</string>
+    <string name="btn_check_pronunciation">Check Pronunciation</string>
+    <string name="hint_enter_word">Please type any word</string>
+    <string name="btn_pronounce">Test your Pronunciation</string>
+    <string name="error_record_permissions">Pronunciation Checker is unavailable because the features requires Record Permission that the user has denied.</string>
+
+    <string name="error_speech_recognition_unavaiable">Speech recognition is unavailable</string>
+
+
+    <string name="err_required">required</string>
+
+    <string name="err_speech_recognition">%1$s: %2$s</string>
+    <string name="tv_check_pronunciation">Check Pronunciation</string>
+    <string name="tv_speak_word">Speak: %1$s</string>
+    <string name="tv_speech_result">You spoke: %1$s</string>
+
+    <string name="str_accuracy_percentage">%1$s%%</string>
+    <string name="tv_accuracy_percentage">%1$d%%</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="tv_accuracy">Accuracy</string>
+    <string name="cd_mic_icon">mic_icon</string>
+    <string name="btn_another_word">Another Word</string>
+    <string name="btn_teach_me">Teach Me</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cd_lesson_image">lesson image</string>
+    <string name="daily_lesson">Daily Lesson</string>
+    <string name="str_read_more_notification_action">Read More</string>
+    <string name="str_later_notification_action">Later</string>
+    <string name="btn_practice_words">Practice Words</string>
+    <string name="btn_practice_sentences">Practice Sentences</string>
+    <string name="btn_daily_lesson">Daily Lesson</string>
+    <string name="btn_test_pronunciation">Test Pronunciation</string>
+    <string name="btn_homophones">Homophones</string>
+    <string name="str_homophones">Homophones</string>
+    <string name="str_mi_pronunciation_guide">Pronunciation Guide</string>
+    <string name="str_pronunciation_guide">Pronunciation Guide</string>
+    <string name="str_mi_text_to_speech">Text To Speech</string>
+    <string name="str_text_to_speech">Text To Speech</string>
+    <string name="str_daily_lesson_progress_percentage">%1$d%%</string>
+    <string name="str_word_lesson_progress_percentage">%1$d%%</string>
+    <string name="_0">0%</string>
+    <string name="btn_later">Later</string>
+    <string name="btn_upgrade_now">Upgrade Now</string>
+    <string name="tv_become_vip">Become VIP</string>
+    <string name="tv_become_vip_desc">Upgrade <b>English Pronunciation</b> right now and save up to 25%</string>
+
+    <string name="tv_vip_perk_one">Access to all lessons for life time</string>
+    <string name="tv_vip_perk_two">Removing advertisement permanently</string>
+    <string name="cd_lesson_locked_icon">lesson locked icon</string>
+    <string name="cd_recording_icon">recording icon</string>
+    <string name="err_speech_recognition_not_available">Speech recognition is not available on this device!</string>
+    <string name="err_google_voice_typing_not_enabled">Google voice typing must be enabled!</string>
+    <string name="cd_speech_icon">speech icon</string>
+    <string name="cd_translation_icon">translation icon</string>
+    <string name="err_something_went_wrong">something went wrong!</string>
+    <string name="err_internet_required">Internet required</string>
+    <string name="words_completed">%1$d/%2$d</string>
+    <string name="btn_translate">Translate</string>
+    <string name="tv_target_language">Target Language</string>
+    <string name="word_score">Words Score: %1$d </string>
+    <string name="sentence_score">Sentences Score: %1$d </string>
+    <string name="words">Words</string>
+    <string name="sentence">Sentence</string>
+    <string name="err_internet_not_available">No internet connection</string>
+    <string name="err_In_app_billing_service_is_unavailable"><![CDATA[In-app billing service is unavailable, please upgrade Android Market/Play to version >= 3.9.16]]></string>
+    <string name="err_internet_connection_for_price">Connect to internet and try again for price</string>
+
+    <string name="tv_price"><strike>%1$s %2$.2f</strike> </string>
+    <string name="tv_discounted_price">%1$s %2$.2f</string>
+    <string name="btn_learn_more">Learn More</string>
+    <string name="err_result_not_match_speak">No results matched. try again!</string>
+    <string name="err_add_not_ready_yet">Ad not ready yet</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="mi_privacy_policy">Privacy Policy</string>
+    <string name="mi_rate">Rate</string>
+    <string name="mi_share">Share</string>
+    <string name="mi_more_apps">More Apps</string>
+    <string name="str_share_msg">Check this awesome English Pronunciation App, you will love it. Download it here: https://play.google.com/store/apps/details?id=</string>
+    <string name="str_share_title">Share via</string>
+    <string name="str_notification_channel_desc">Daily notifications helps you learn new english content</string>
+    <string name="err_tts_not_supported">Your Device don\'t Support Voice Functions.</string>
+    <string name="blank_line">-------</string>
+    <string name="str_help_us_make_the_app_better">Help us make the app better</string>
+    <string name="str_welcome_text_desc">WE do our best to provide great user experiance to our users. That\'s why we monitor and monetize our app through Firebase, Facebook and some third party ad networks. That may collect some analytical data but nothing personal.</string>
+    <string name="str_continue_with_ads">Continue with Ads</string>
+    <string name="str_let_s_go">Let\'s Go</string>
+    <string name="str_remove_ads">Remove Ads</string>
+    <string name="mi_ad">Ad</string>
+
+    <!--    TODO Add AdMob Ad Unit Ids Here-->
+    <string name="admob_interstitial_ad_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_main_bottom_banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_homophone_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_practice_words_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_practice_sentences_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_daily_lesson_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_test_pronunciation_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_pronunciation_guide_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_speak_bottom_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <!--TODO Add Facebook Ad Unit ids here-->
+    <string name="main_bottom_banner_ad_id">YOUR_PLACEMENT_ID</string>
+    <string name="main_int_ad">YOUR_PLACEMENT_ID</string>
+    <string name="homophone_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="practice_words_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="practice_sentences_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="daily_lesson_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="test_pronunciation_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="pronunciation_guide_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+    <string name="speak_bottom_banner_ad">YOUR_PLACEMENT_ID</string>
+
+
+    <!--    Face App Id for Facebook Analytics and Ads-->
+    <!--    TODO Add your Privacy Policy URL here-->
+    <string name="privacy_policy_url">http://tictactoe-brain-games.blogspot.com/2018/10/english-pronunciation-android-app.html</string>
+
+    <!--    TODO Add your facebook app id here-->
+    <string name="facebook_app_id">YOUR FACEBOOK AD ID HERE</string>
+
+    <!--    TODO Add BASE 64 key from Google Play Console for performing the In-App Purchasing-->
+    <string name="base64_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlfe0m8PEKiYhVACl91Wmmo5I1QoY+CrSyaObqYldRTOh7A8yTe784o+9urQxYBqgo3VtROkOpMrw85J2iIeUOauWOZDX4RpSmj7yRKA6azeSeDIOWx0Tyr7ji8DdzojhyB9B3Pm9e6rXAc6FNUTQQFKR+B/a5eJAojBVOGU1aHjpwAWUUQkImYatbNi5vl1+s3b62qU2SjzDgNSBPyaKjM34fxPnZZjMdpAV4t8nK4N4muBtB4UlCKaPWKrbCq+i7RFI/i1S+Ptfu69PUvt5hfaTRsQ/ESoxfoiXrgGpm+OPpWGzFrt20kExOTqdUgwD5DZG92Hht9Kbsb1Eeom1DQIDAQAB</string>
+
+    <!--    TODO Add product ID to remove ads-->
+    <string name="remove_ad_id">remove.ads</string>
+
+
+</resources>

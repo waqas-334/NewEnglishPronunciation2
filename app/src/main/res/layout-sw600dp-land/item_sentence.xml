@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="600dp"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/activity_horizontal_margin_double"
+    android:layout_marginVertical="@dimen/activity_vertical_margin"
+
+    android:clipToPadding="false"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="@dimen/activity_horizontal_margin_double"
+        android:paddingVertical="@dimen/activity_vertical_margin_double">
+
+        <ImageButton
+            android:id="@+id/ibTranslate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/activity_horizontal_margin_micro"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/cd_translation_icon"
+            android:padding="@dimen/activity_horizontal_margin_small"
+            android:src="@drawable/ic_baseline_g_translate_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/ibSpeech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/cd_speech_icon"
+            android:padding="@dimen/activity_horizontal_margin_small"
+            android:src="@drawable/ic_outline_volume_up_24"
+            app:layout_constraintEnd_toStartOf="@id/ibTranslate"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvSentenceWords"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin_micro"
+            android:ellipsize="marquee"
+            android:gravity="start"
+            android:maxLines="2"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin_small"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/llAccuracy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ibSpeech" />
+
+        <TextView
+            android:id="@+id/tvSentencePhonetic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin_small"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@id/llAccuracy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSentenceWords" />
+
+
+        <LinearLayout
+            android:id="@+id/llAccuracy"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvSentencePhonetic">
+
+            <TextView
+                android:id="@+id/tvAccuracyPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLength="4"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tv_accuracy"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.androidbull.mypronounce.ui.helper.ClickableTextView
+            android:id="@+id/tvSpeechResult"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/activity_vertical_margin_micro"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin_small"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/llAccuracy" />
+
+        <com.androidbull.mypronounce.ui.helper.ClickableTextView
+            android:id="@+id/tvSpeechOutput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin_micro"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:gravity="start"
+            android:paddingHorizontal="@dimen/activity_horizontal_margin_small"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSpeechResult" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
